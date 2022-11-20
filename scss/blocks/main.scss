@@ -1,3 +1,54 @@
-.wraper_main{
-background-color: url(../img/living-room-interior.jpg;)
+main {
+    font-size: 1em;
+}
+
+.main_top {
+    height: 675px;
+    background: url(../img/living-room-interior.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: 50% 0;
+    &::after{
+        content:'';
+        display: inline-block;
+        height: 67px;
+        width: 100%;
+        background: white;
+        position: absolute;
+        left: 0;
+        right: 0;  
+    }
+    
+}
+
+.main_box1 {
+    padding-top: 142px;
+    padding-bottom: 130px;
+
+    h2 {
+        width: 650px;
+        font-size: 2.5em;
+        font-weight: 400;
+        padding-bottom: 50px;
+
+        span {
+            color: $color_global2;
+            font-weight: 700;
+        }
+    }
+
+    p {
+        width: 403px;
+        font-size: 1.5625em;
+        padding-bottom: 40px;
+    }
+}
+.main_box1_btn{
+    position: relative;
+img{
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 205px;
+    top: -55px;
+}
 }
