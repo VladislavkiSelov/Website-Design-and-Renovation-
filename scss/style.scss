@@ -1,0 +1,28 @@
+@import './base/_container.scss';
+@import './base/_reset2.scss';
+@import './blocks/_header.scss';
+@import './blocks/main.scss';
+@import './blocks/_footer.scss';
+@import '../scss/base/fonts';
+@import '../scss/base/variables';
+@import '../scss/components/button';
+
+html body{
+    font-family: 'Gilroy','sans-serif';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    color: $color_global1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wraper{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+overflow: hidden;
+}
